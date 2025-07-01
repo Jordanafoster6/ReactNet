@@ -1,0 +1,71 @@
+# ========================
+# .NET (.NET Core / ASP.NET)
+# ========================
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Rider / VS Code
+.idea/
+.vscode/
+.vs/
+
+# Build results
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# NPM Packages
+node_modules/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# ========================
+# React (Node.js frontend)
+# ========================
+node_modules/
+dist/
+build/
+.env
+.env.*.local
+.npmrc
+.yarn*
+.pnp*
+.cache/
+.next/
+out/
+coverage/
+
+# Testing
+jest.config.js
+coverage/
+*.lcov
+
+# Mac system files
+.DS_Store
+
+# ========================
+# Optional: Ignore local settings and secrets
+# ========================
+*.local.json
+secrets.json
+
+# End of file
